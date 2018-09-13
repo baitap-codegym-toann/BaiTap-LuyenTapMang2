@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai2</title>
+</head>
+<body>
+<script>
+    let arr =["a","b","C","d"];
+    let arr1=[];
+    let arr2=[];
+    while ( arr.length >1){
+        arr1.unshift((arr.pop()));
+        arr2.push(arr.shift());
+
+    }
+    arr = arr1.concat(arr.concat(arr2));
+</script>
+</body>
+</html>

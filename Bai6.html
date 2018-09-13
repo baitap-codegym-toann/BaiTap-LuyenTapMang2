@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai6</title>
+</head>
+<body>
+<script>
+    let input = prompt("nhập string","");
+    input = input.split("");
+    for (let i=0;i<input.length;i++){
+        if (input[i] === "-"){input[i] = "_"}
+    }alert(input.join(""));
+</script>
+</body>
+</html>
